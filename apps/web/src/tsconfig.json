@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es2020",
+        "module": "es2015", // Use ES modules for browser
+        "outDir": "../js", // Compile to public/js
+        "rootDir": "./",
+        "strict": true,
+        "lib": [
+            "dom",
+            "es2020"
+        ],
+        "moduleResolution": "node"
+    },
+    "include": [
+        "app.ts"
+    ]
+}

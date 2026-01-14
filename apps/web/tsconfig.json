@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es2020",
+        "module": "es2015",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "strict": true,
+        "lib": [
+            "dom",
+            "es2020"
+        ],
+        "moduleResolution": "node"
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "references": [
+        {
+            "path": "../../packages/shared"
+        }
+    ]
+}
